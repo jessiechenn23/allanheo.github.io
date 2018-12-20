@@ -1,3 +1,14 @@
 html {
-  background-color: purple; 
+  color: darkBlue;
+  font: bold 16px 'Courier New', monospace;  /*font shorthand*/
 }
+
+img {
+  border: 4px inset mediumSlateBlue;    /*border shorthand*/
+  width: 115px;
+}
+
+p {
+  margin: 14px 0 10px 0;    /*margin shorthand*/
+}
+
