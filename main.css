@@ -109,7 +109,7 @@ a:hover { /*hover over the link*/
 }
 
 a:visited { /*links that are already visited*/
-  color: pink; 
+  color: blue; 
   font-weight: bold; 
 }
 
