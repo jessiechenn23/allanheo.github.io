@@ -33,7 +33,7 @@ h3 {
 }
 
 h4 {
-	text-shadow: 2px -5px 3px lightBlue;  	
+	text-shadow: 2px -5px 3px lightBlue;  	/*in order: left/right, up/down, blur, color */
 }
 
 
@@ -45,7 +45,7 @@ h5 {
 
 a {
   text-decoration: none;	/*you can also put underline, line-through, or overline for values"*/
-	color: blue; 
+  color: blue; 
 }	
 	
 /*you can also play around with a:visited or a:hover, but we really only have so many clickable links on our website, and they will very soon turn into a "visited" link/*
