@@ -105,6 +105,7 @@ html {
 
 a:hover { /*hover over the link*/
   color: green; 
+  font: 20px;
 }
 
 a:visited { /*links that are already visited*/
