@@ -48,7 +48,7 @@ header {
 
 a {
   text-decoration: none;	/*you can also put underline, line-through, or overline for values"*/
-  color: blue; 
+  color: pink; 
 }	
 	
 /*you can also play around with a:visited or a:hover, but we really only have so many clickable links on our website, and they will very soon turn into a "visited" link/*
