@@ -98,7 +98,7 @@ background shorthand property
 See example below */
 
 html {
-	background: hotPink url(/images/textures/light2a.png);
+	background: lightBlue url();
 }
 
 /*-----------------------------*/
