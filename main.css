@@ -1,6 +1,7 @@
 p {	
   background-color: lightblue; /*background color of everything inside paragraphs*/
   color: green /*font color*/
+  background-image: url(/IMG_1513.jpg);
 }
 
 img {
@@ -43,9 +44,6 @@ h5 {
 
 header {
   text-align: center; /*can also be left, right, and justify*/	
-}
-body {
-	background-image: url(/IMG_1513.jpg);
 }
 
 a {
