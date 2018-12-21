@@ -11,7 +11,7 @@ font-family: Font-name font-family (go to lesson 13.3 to see more font-name and 
 See example below */
 
 h1 {
-    font: bold 28px Impact, fantasy; 
+	font: bold 28px Impact, fantasy; 
 }
 
 
@@ -29,7 +29,7 @@ border-color: any color
 See example below */
 
 img {
-  	border: inset 4px mediumSlateBlue;
+  border: inset 4px mediumSlateBlue;
 }
 
 /*------------------------------------------------------------------
