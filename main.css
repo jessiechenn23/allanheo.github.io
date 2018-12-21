@@ -1,7 +1,6 @@
 p {	
   background-color: lightblue; /*background color of everything inside paragraphs*/
   color: green /*font color*/
-  background-image: url(/IMG_1513.jpg);
 }
 
 img {
