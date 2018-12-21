@@ -1,14 +1,113 @@
-html {
-  color: darkBlue;
-  font: bold 16px 'Courier New', monospace;  /*font shorthand*/
+/*font shorthand property: 
+		
+		h1 { 
+ 		   font: font-weight font-size font-family; 	
+		} 
+
+font-weight: normal or bold
+font-size: __px
+font-family: Font-name font-family (go to lesson 13.3 to see more font-name and font-family)
+
+See example below */
+
+h1 {
+    font: bold 28px Impact, fantasy; 
 }
+
+
+/*------------------------------------------------------------------
+image border shorthand property: 
+		
+		img { 
+ 			border: border-style border-width border-color;
+		} 
+
+border-style: dotted, dashed, double, groove, ridge, inset, outset
+border width: __px
+border-color: any color
+
+See example below */
 
 img {
-  border: 4px inset mediumSlateBlue;    /*border shorthand*/
-  width: 115px;
+  	border: inset 4px mediumSlateBlue;
 }
+
+/*------------------------------------------------------------------
+margin shorthand property: 
+		
+		p { 
+ 			margin: __px;        this sets the margin to __px all around
+		} 
+
+		
+		p { 
+ 			margin: 12px 10px 8px 6px; 		this sets the margin-top to 12px, margin-right to 10px, margin-bottom to 8px, and margin-left to 6px
+		} 
+See example below */
 
 p {
-  margin: 14px 0 10px 0;    /*margin shorthand*/
+	margin: 12px 10px 10px 12px; 
 }
 
+/*------------------------------------------------------------------
+image or heading box-shadow shorthand property: 
+		
+		h2 { 
+ 			box-shadow: left/right up/down blur spread;
+		} 
+
+See example below */
+
+h2 {
+	box-shadow: 2px -5px 3px 4px;  	
+}
+
+/*------------------------------------------------------------------
+text-shadow shorthand property: 
+		
+		h2 { 
+ 			text-shadow: left/right up/down blur color;
+		} 
+
+See example below */
+
+h2 {
+	text-shadow: 2px -5px 3px lightBlue;  	
+}
+
+/*------------------------------------------------------------------
+multiple text-shadow shorthand property: 
+		
+		h2 { 
+ 			text-shadow: left/right up/down blur, left/right up/down blur, left/right up/down blur; (as many shadows as you want)
+		} 
+
+See example below */
+
+h2 {
+	text-shadow: 2px -5px 3px lightBlue, 0px -2px 10px yellow;  	
+}
+
+/*------------------------------------------------------------------
+background shorthand property
+		
+		html { 
+ 			background: color url(ref to picture); 
+		} 
+
+See example below */
+
+html {
+	background: hotPink url(/images/textures/light2a.png);
+}
+
+/*-----------------------------*/
+
+a:hover { /*hover over the link*/
+  color: green; 
+}
+
+a:visited { /*links that are already visited*/
+  color: pink; 
+  font-weight: bold; 
+}
