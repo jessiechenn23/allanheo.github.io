@@ -111,3 +111,8 @@ a:visited { /*links that are already visited*/
   color: pink; 
   font-weight: bold; 
 }
+
+a {
+  text-decoration: none;
+}	
+	
