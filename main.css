@@ -4,11 +4,11 @@ p {
 }
 
 img {
-	border-style: inset; /*other options are dotted, dashed, double, groove, ridge, outset, and none*/
-	border-width: 4px;
-	border_color: mediumSlateBlue; /*you need to first have a style before you can set a color!*/
+  border-style: inset; /*other options are dotted, dashed, double, groove, ridge, outset, and none*/
+  border-width: 4px;
+  border_color: mediumSlateBlue; /*you need to first have a style before you can set a color!*/
 	
-	width: 115px; /*if there's both a width here and in the <img width=""> then which one gets used? */
+  width: 115px; /*if there's both a width here and in the <img width=""> then which one gets used? */
 }
 
 h1 {
