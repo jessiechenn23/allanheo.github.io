@@ -12,33 +12,33 @@ img {
 }
 
 h1 {
-	font-family: 'Trebuchet MS', sans-serif; 
-	font-size: 48px;
-	color: blue;
-	font-weight: normal; /*google search other property value options for font-weight in css*/
+  font-family: 'Trebuchet MS', sans-serif; 
+  font-size: 48px;
+  color: blue;
+  font-weight: normal; /*google search other property value options for font-weight in css*/
 }
 
 h2 {
-	margin-top: 12px;
-	margin-right: 10px; 
-	margin-bottom: 8px;
-	margin-left: 16px; 
+  margin-top: 12px;
+  margin-right: 10px; 
+  margin-bottom: 8px;
+  margin-left: 16px; 
 }
 
 
 h3 {
-	margin: 0 auto 0 auto; 
-	box-shadow: 2px -5px 3px 4px green;  	/*in order: left/right, up/down, blur, spread, color 
+  margin: 0 auto 0 auto; 
+  box-shadow: 2px -5px 3px 4px green;  	/*in order: left/right, up/down, blur, spread, color 
                                           play around with this on codeavengers where you can instantly see the change! */
 }
 
 h4 {
-	text-shadow: 2px -5px 3px lightBlue;  	/*in order: left/right, up/down, blur, color */
+  text-shadow: 2px -5px 3px lightBlue;  	/*in order: left/right, up/down, blur, color */
 }
 
 
 h5 {
-	text-shadow: 2px -5px 3px LightBlue, 0px -2px 10px yellow;  	
+  text-shadow: 2px -5px 3px LightBlue, 0px -2px 10px yellow;  	
 }
 
 
